@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# BigQuery cache
+cache/*.json
+!cache/.gitkeep
+
+# Temporary test exports
+*.tmp
+digest_test.md
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
